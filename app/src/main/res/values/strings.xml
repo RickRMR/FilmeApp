@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HQTestApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share_button_title">Compartilhar</string>
+    <string name="sinopse">Os Pilares agora enfrentam Muzan e decidem atacá-lo juntos. No entanto, eles são transportados para a Fortaleza Infinita antes que possam desferir um único golpe e, portanto, são separados.
+    </string>
+    <string name="Nome_do_filme">Demon Slayer - Castelo Infinito</string>
+    <string name="todo">TODO</string>
+</resources>
