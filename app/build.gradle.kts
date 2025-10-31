@@ -2,11 +2,11 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     "kotlin_kapt"
-    "androidx.navigation.safeargs.kotlin"
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
-    namespace = "com.richard.filmeExerc"
+    namespace = "com.richard.hqtestapp"
     compileSdk = 36
 
     defaultConfig {
@@ -35,9 +35,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures {
-        viewBinding = true
-    }
+   dataBinding{
+       enable = true
+   }
 }
 
 dependencies {
