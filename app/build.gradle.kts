@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.richard.hqtestapp"
+    namespace = "com.richard.filmeExerc"
     compileSdk = 36
 
     defaultConfig {
@@ -35,9 +35,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-   dataBinding{
-       enable = true
-   }
+    dataBinding{
+        enable = true
+    }
 }
 
 dependencies {

@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/hq_graph"
-    app:startDestination="@id/hqFragment">
+    app:startDestination="@id/HQFragment2">
     <fragment
-        android:id="@+id/hqFragment"
-        android:name="com.richard.hqtestapp.HQFragment"
+        android:id="@+id/HQFragment2"
+        android:name="com.richard.filmeExerc.MovieFragment"
         android:label="fragment_item_list"
         tools:layout="@layout/fragment_item_list" >
         <action
-            android:id="@+id/action_HQFragment_to_HQDetailsFragment"
-            app:destination="@id/hqDetailsFragment" />
+            android:id="@+id/action_HQFragment2_to_HQDetailsFragment2"
+            app:destination="@id/HQDetailsFragment2" />
     </fragment>
     <fragment
-        android:id="@+id/hqDetailsFragment"
-        android:name="com.richard.hqtestapp.HQDetailsFragment"
+        android:id="@+id/HQDetailsFragment2"
+        android:name="com.richard.filmeExerc.HQDetailsFragment"
         android:label="fragment_h_q_details"
-        tools:layout="@layout/fragment_h_q_details" />
+        tools:layout="@layout/fragment_movie_details" />
 </navigation>
